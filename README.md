@@ -24,6 +24,8 @@ To update:
 * Open a terminal in the folder location and then just `git pull`
 * If for some reason this fails, just re-install
 
+### Changing background
+Change the variable values in the user.css file with the urls as values, then change the `--bg` variable to whatever variable you want your wallpaper to be.
 ### Bugs & Issues
 
 I know there are a ton of bugs and I am actively working on fixing them. With that being said, please don't spam this repo with issues, as I know they exist. Please only post issues that make the app unusable, that way I can prioritize those.
