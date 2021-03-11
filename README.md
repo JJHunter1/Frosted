@@ -1,4 +1,6 @@
 # Frosted
+This is my fork just to make a few elements more aesthetic.
+
 
 ## Spicetify Theme
 
