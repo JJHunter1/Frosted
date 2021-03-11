@@ -33,11 +33,3 @@ Change the variable values in the user.css file with the urls as values, then ch
 I know there are a ton of bugs and I am actively working on fixing them. With that being said, please don't spam this repo with issues, as I know they exist. Please only post issues that make the app unusable, that way I can prioritize those.
 
 I just recently modularized my code using stylus which will make it easier to maintain in the long run and make it easier to fix bugs and add features. Expect plenty of updates.
-
-### Communication
-
-I am fairly often scouring the [Spectrum group for Spicetify-cli](https://spectrum.chat/spicetify?tab=posts) and that is the best place to reach me for now.
-
-### Lack of Screenshots
-
-It's late and I'm pretty tired and I posted screenshots in the spectrum group, so look there under the Themes > Blurred Background. They are a little outdated but still pretty accurate.
