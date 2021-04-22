@@ -476,7 +476,7 @@ a.contextmenu-active:active {
   color: inherit;
 }
 .content-top-bar {
-  background-color: rgba(0,0,0,0.92);
+  background-color: rgba(0,0,0,0.7);
 }
 .browser-navigation {
   color: #fff;
