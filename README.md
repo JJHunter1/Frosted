@@ -28,8 +28,3 @@ To update:
 
 ### Changing background
 Change the variable values in the user.css file with the urls as values, then change the `--bg` variable to whatever variable you want your wallpaper to be.
-### Bugs & Issues
-
-I know there are a ton of bugs and I am actively working on fixing them. With that being said, please don't spam this repo with issues, as I know they exist. Please only post issues that make the app unusable, that way I can prioritize those.
-
-I just recently modularized my code using stylus which will make it easier to maintain in the long run and make it easier to fix bugs and add features. Expect plenty of updates.
