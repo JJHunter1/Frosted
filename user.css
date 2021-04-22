@@ -1,8 +1,8 @@
 :root {
   --bg1: url("https://fanart.tv/fanart/music/8247a3f2-3a8e-4256-b322-6c57b03a4e36/artistbackground/evans-bill-4f8f71726a22b.jpg");
-  --bg2: url("https://i.pinimg.com/originals/da/ec/8d/daec8d755fe71408084e214a7b17460f.jpg");
+  --bg2: url("https://artlords-artwork.s3.amazonaws.com/uploads/image/2370/display_journey_by_erenarik-d7w2mv4.jpg");
   --bg3: url("https://wallpapershome.com/images/pages/pic_hs/5321.jpg");
-  --bg: var(--bg1);
+  --bg: var(--bg2);
   --bgcolor: #333;
   --accent-color: #fd5252;
   --accent-gradient: linear-gradient(to right, #420101 0%, #e60012 100%);
@@ -74,7 +74,7 @@ body[data-multi-select-disabled] {
 .glue-page-header__background-color,
 .glue-page-header--with-active-sticky-header .glue-page-header__sticky {
   backdrop-filter: blur(var(--blur));
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.2);
 }
 .GlueHeader__title span,
 .GlueHeader__title h1,
@@ -90,13 +90,13 @@ body[data-multi-select-disabled] {
   border: none;
 }
 .card-placeholder-wrapper {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.2);
 }
 .button.button-green {
   background: var(--accent);
 }
 .context-menu {
-  background-color: rgba(0,0,0,1.0);
+  background-color: rgba(0,0,0,0.8);
   backdrop-filter: blur(var(--blur));
   text-shadow: 1px 1px 1px #000;
 }
@@ -107,7 +107,7 @@ body[data-multi-select-disabled] {
   color: #fff;
 }
 .context-menu .item.hover:not(.disabled) {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.9);
 }
 .context-menu .item.disabled {
   opacity: 1;
@@ -240,10 +240,10 @@ body.remotebar .view-player .player-bar-wrapper {
 .tracklist-search {
   border: none;
   color: #eee;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.0);
 }
 .tl-header th {
-  color: #fff;
+  color: rgba(0,0,0,0);
 }
 .tl-sort-asc::after,
 .tl-sort-desc::after {
@@ -254,11 +254,11 @@ body.remotebar .view-player .player-bar-wrapper {
   border: none;
 }
 .tl-row .button-play {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.2);
 }
 .tl-row .button-play.contextmenu-active,
 .tl-row .button-play:not(:disabled):hover {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.2);
 }
 .tl-row .button-play {
   display: inline-block;
@@ -296,10 +296,10 @@ body.remotebar .view-player .player-bar-wrapper {
 }
 .tl-row:hover::after,
 .tl-row.contextmenu-active::after {
-  opacity: 0.9;
+  opacity: 0.2;
 }
 .tl-row.selected::after {
-  opacity: 0.8;
+  opacity: 0.2;
 }
 .tl-row.current::after {
   opacity: 1;
@@ -314,7 +314,7 @@ body.remotebar .view-player .player-bar-wrapper {
   color: #fff !important;
 }
 .sticky-clone .tl-header {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.0);
   backdrop-filter: blur(var(--blur));
 }
 .empty-filtered-content {
